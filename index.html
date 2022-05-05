@@ -1,9 +1,9 @@
 <!DOCTYPE html>
+  <style>
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <title></title>
-  <style>
       body {
         background-color: lightblue;
         text-align: center;
@@ -49,12 +49,12 @@
 </head>
 <body>
   <script>
-    const AS_URL_BASE = "https://script.google.com/macros/s/AKfycbxmpr9PrhxFm-BDq7RZ1X6ytsxBC-m72oMHNnaJlEJ33Sm1MQsPZtcgItdbsIhMYSgYdA/exec";
+    const AS_URL_BASE =" "htt p;s://script.google.com/macros/s/AKfycbyJKr-f5iu_jRUuLNoSU29eljQB9C6GkZCMYZ4YgM_X1W5whtaVG_bTflbyXGtkntL2/exec
     
     var url = document.location.href;
     var k = url.substr(url.lastIndexOf("k=")+2);
     
-    if(k){
+    if(k)
       fetch(AS_URL_BASE+'?k='+k)
       .then(r => r.text())
       .then((r) => {
