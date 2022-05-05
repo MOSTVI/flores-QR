@@ -68,8 +68,8 @@
 </ cabeza >
 < cuerpo >
   < guión >
-    const  AS_URL_BASE  =  "" ;
-    
+    const  AS_URL_BASE  =  "https://script.google.com/macros/s/AKfycbww1gfQ9oaALzC3IZ9hlqpFodL4ifsz3zxqj3bTCq6J3jBnzPuKDfNvxFA3SHigbmLT/exec" ;
+   
     var  url  =  documento . ubicación _ href ;
     var  k  =  URL . substr ( url . lastIndexOf ( "k=" ) + 2 ) ;
     
